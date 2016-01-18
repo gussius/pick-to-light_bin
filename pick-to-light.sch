@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:PTL-Schematic
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -29,6 +28,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:PTL-Schematic
 LIBS:pick-to-light-cache
 EELAYER 25 0
 EELAYER END
@@ -532,7 +532,7 @@ U 1 1 5661FBD1
 P 13750 2450
 F 0 "Y1" H 13750 2600 50  0000 C CNN
 F 1 "Crystal" H 13750 2300 50  0000 C CNN
-F 2 "Crystals:Crystal_HC49-U_Vertical" H 13750 2450 60  0001 C CNN
+F 2 "PTL-footprints:Crystal_HC49-U_Vertical" H 13750 2450 60  0001 C CNN
 F 3 "" H 13750 2450 60  0000 C CNN
 	1    13750 2450
 	0    -1   1    0   
@@ -801,7 +801,7 @@ U 1 1 5666BF0B
 P 8400 9500
 F 0 "U1" H 8400 9700 40  0000 C CNN
 F 1 "LD1117S33TR" H 8400 9700 40  0001 C CNN
-F 2 "TO_SOT_Packages_SMD:SOT89-3_Housing" H 8400 9600 40  0001 C CNN
+F 2 "PTL-footprints:SOT89-3_Housing" H 8400 9600 40  0001 C CNN
 F 3 "" H 8400 9500 60  0000 C CNN
 	1    8400 9500
 	1    0    0    -1  

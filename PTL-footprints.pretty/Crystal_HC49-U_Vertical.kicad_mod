@@ -1,10 +1,10 @@
 (module Crystal_HC49-U_Vertical (layer F.Cu) (tedit 0)
   (descr "Crystal, Quarz, HC49/U, vertical, stehend,")
   (tags "Crystal, Quarz, HC49/U, vertical, stehend,")
-  (fp_text reference REF** (at 0 -3.81) (layer F.SilkS)
+  (fp_text reference Y1 (at 0 -3.81) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value Crystal_HC49-U_Vertical (at 0 3.81) (layer F.Fab)
+  (fp_text value Crystal (at 0 3.81) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_line (start 4.699 -1.00076) (end 4.89966 -0.59944) (layer F.SilkS) (width 0.15))
@@ -60,7 +60,7 @@
   (fp_line (start -3.2004 -2.32918) (end 3.2512 -2.32918) (layer F.SilkS) (width 0.15))
   (pad 1 thru_hole circle (at -2.44094 0) (size 1.50114 1.50114) (drill 0.8001) (layers *.Cu *.Mask F.SilkS))
   (pad 2 thru_hole circle (at 2.44094 0) (size 1.50114 1.50114) (drill 0.8001) (layers *.Cu *.Mask F.SilkS))
-  (model "C:/Users/angmcl/Documents/KiCAD/pick-to-light/CAD Files/8mhz-crystal.wrl"
+  (model "../../../../../../Users/angmcl/Documents/KiCAD/pick-to-light_bin/CAD Files/8mhz-crystal.wrl"
     (at (xyz 0 0 0))
     (scale (xyz 0.393701 0.393701 0.393701))
     (rotate (xyz -90 0 0))
